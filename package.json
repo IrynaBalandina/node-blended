@@ -1,0 +1,21 @@
+{
+  "name": "blended",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node src/scripts/generateProducts.js", 
+        "add-one": "node src/scripts/addOneProduct.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@faker-js/faker": "^9.3.0",
+    "eslint": "^9.16.0",
+    "globals": "^15.13.0"
+  }
+}
