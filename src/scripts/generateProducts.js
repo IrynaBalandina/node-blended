@@ -1,6 +1,7 @@
 import { createFakeProduct } from "../utils/createfakeproduct.js";
 import * as fs from "node:fs/promises";
 import { PATH_DB } from "../constans/products.js";
+
 // data використовуємо замість readProducts
 export const generateProducts = async(number)=>{
  const data = await fs.readFile(PATH_DB, "utf-8"); 
